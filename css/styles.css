@@ -31,3 +31,6 @@ li a{
     display:block;
     font-weight:600;
 }
+li a:hover{
+    background-color:rgb(160, 154, 154);
+}
