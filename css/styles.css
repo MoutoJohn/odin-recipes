@@ -1,12 +1,12 @@
 
 body{
     font-family: Verdana, sans-serif;
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
 }
 
 h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 ul{
@@ -16,8 +16,18 @@ ul{
     margin:30px;
     text-align: center;
     padding: 22px;
+    background:rgb(202, 195, 195);
+    
+    
 }
+
 li{
-    display: block;
-    font-size: 40px;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color:black;
+    font-size: 34px;
+    display:block;
+    font-weight:600;
 }
